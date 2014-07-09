@@ -1,0 +1,260 @@
+Copyright (c) 2013 Cylance, Inc.  All rights reserved.
+For updates, please visit <http://www.cylance.com/>.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+   must display the following acknowledgement:
+   This product includes software developed by Cylance, Inc.
+4. Neither the name of Cylance, Inc., nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY CYLANCE, INC., ''AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL CYLANCE, INC., BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+
+Portions of this software are based on FreeBSD rand.c, which bears the following copyright notice and conditions:
+
+Copyright (c) 1990, 1993
+   The Regents of the University of California.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+4. Neither the name of the University nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+
+
+
+Portions of this software are based on Microsoft SSCLI/Rotor random.cs (modified 06/14/2013), which is subject to the following copyright notice and license:
+
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+MICROSOFT SHARED SOURCE CLI, C#, AND JSCRIPT LICENSE
+
+This License governs use of the accompanying Software, and your use of
+the Software constitutes acceptance of this license.
+
+You may use this Software for any non-commercial purpose, subject to
+the restrictions in this license. Some purposes which can be
+non-commercial are teaching, academic research, and personal
+experimentation.   You may also distribute this Software with books or
+other teaching materials, or publish the Software on websites, that
+are intended to teach the use of the Software.
+
+You may not use or distribute this Software or any derivative works in
+any form for commercial purposes.  Examples of commercial purposes
+would be running business operations, licensing, leasing, or selling
+the Software, or distributing the Software for use with commercial
+products.
+
+You may modify this Software and distribute the modified Software for
+non-commercial purposes, however, you may not grant rights to the
+Software or derivative works that are broader than those provided by
+this License.   For example, you may not distribute modifications of
+the Software under terms that would permit commercial use, or under
+terms that purport to require the Software or derivative works to be
+sublicensed to others.
+
+You may use any information in intangible form that you remember after
+accessing the Software.  However, this right does not grant you a
+license to any of Microsoft's copyrights or patents for anything you
+might create using such information.
+
+In return, we simply require that you agree:
+
+1.  Not to remove any copyright or other notices from the Software.
+
+2.  That if you distribute the Software in source or object form,
+    you will include a verbatim copy of this license.
+
+3.  That if you distribute derivative works of the Software in
+    source code form you do so only under a license that
+    includes all of the provisions of this License, and if you
+    distribute derivative works of the Software solely in object
+    form you do so only under a license that complies with this
+    License.
+
+4.  That if you have modified the Software or created derivative
+    works, and distribute such modifications or derivative
+    works, you will cause the modified files to carry prominent
+    notices so that recipients know that they are not receiving
+    the original Software.  Such notices must state: (i) that
+    you have changed the Software; and (ii) the date of any
+    changes.
+
+5.  THAT THE SOFTWARE COMES "AS IS", WITH NO WARRANTIES.  THIS
+    MEANS NO EXPRESS, IMPLIED OR STATUTORY WARRANTY, INCLUDING
+    WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY OR FITNESS
+    FOR A PARTICULAR PURPOSE OR ANY WARRANTY OF TITLE OR
+    NON-INFRINGEMENT.  ALSO, YOU MUST PASS THIS DISCLAIMER ON
+    WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS.
+
+6.  THAT MICROSOFT WILL NOT BE LIABLE FOR ANY DAMAGES RELATED TO
+    THE SOFTWARE OR THIS LICENSE, INCLUDING DIRECT, INDIRECT,
+    SPECIAL, CONSEQUENTIAL OR INCIDENTAL DAMAGES, TO THE MAXIMUM
+    EXTENT THE LAW PERMITS, NO MATTER WHAT LEGAL THEORY IT IS
+    BASED ON.  ALSO, YOU MUST PASS THIS LIMITATION OF LIABILITY
+    ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE
+    WORKS.
+
+7.  That if you sue anyone over patents that you think may apply
+    to the Software or anyone's use of the Software, your
+    license to the Software ends automatically.
+
+8.  That your rights under the License end automatically if you
+    breach it in any way.
+
+9.  Microsoft reserves all rights not expressly granted to you in
+    this license.
+
+
+
+
+Portions of this software are based on GNU C Library (glibc) random_r.cs, which bears the following copyright notices and conditions:
+
+Copyright (C) 1995, 2005, 2009 Free Software Foundation
+
+The GNU C Library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+The GNU C Library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with the GNU C Library; if not, see
+<http://www.gnu.org/licenses/>.
+
+
+Copyright (C) 1983 Regents of the University of California.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+
+
+
+Portions of this software are based on Oracle JDK 7 Random.java, which bears the following copyright notice:
+
+Copyright (c) 1995, 2010, Oracle and/or its affiliates. All rights reserved.
+
+
+
+
+Portions of this software are based on Microsoft Visual Studio 2012 CRT rand.c, which bears the following copyright notice:
+
+Copyright (c) 2006 Microsoft Corporation.  All rights reserved.
+
+
+
+
+Portions of this software are based on MySQL sql/item_func.cc and mysys_ssl/my_rnd.cc, which bear the following copyright notice and license:
+
+Copyright (c) 2000, 2012, Oracle and/or its affiliates. All rights reserved.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA
+
+
+
+
+Portions of this software are based on Google V8 v8.cc, which is subject to the following copyright and conditions:
+
+Copyright 2012 the V8 project authors. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google Inc. nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
